@@ -1,0 +1,15 @@
+{
+  "name": "axium",
+  "version": "1.0.0",
+  "main": "./Main/index.js",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.6.0",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
