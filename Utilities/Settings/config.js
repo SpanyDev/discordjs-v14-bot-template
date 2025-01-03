@@ -5,10 +5,10 @@ module.exports = {
             MongoDB: false,
             MongoURI: ""
         },
-        globalCommands: true,
-        CommandsDelete: false,
+        globalCommands: true, // Komutlatın tüm sunuculara yüklenip yüklenmeyeceği
+        CommandsDelete: false, // Komutların silinip silinmeyeceği (buga girme durumunda tüm sunuculardan slash komutları siler)
         prefixes: [".", "!"],
         developers: [""],
-        guildId: "",
+        guildId: "", // Global komutlar devredışı kaldığında komutların hangi sunucuya yükleneceği
     },
 }
